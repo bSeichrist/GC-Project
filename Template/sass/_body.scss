@@ -1,0 +1,208 @@
+main{
+  height: 80%;
+  width: 100vw;
+
+  .container {
+    position: relative;
+    width: 80%;
+  }
+  .midsection-wrap{
+    width: 100vw;
+    height: auto;
+    .heroshot{
+      background-image: url("../images/brick-wall.jpg");
+      // background-image: url("../lol.gif");
+      border: 5px solid white;
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-top: 0;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 10% 80% 10%;
+      grid-template-rows: 10% 80% 10%;
+      background-position:top center;
+      background-size: cover;
+      width:100%;
+      height:100%;
+      // background: #bbbbbb;
+      grid-column-start: 2;
+      grid-row-start: 2;
+    }
+    .gallery{
+      border: 10px solid #9ADAEF; ;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 50% 50%;
+      height:80vw ;
+      width:100vw;
+      font-size: 18px;
+      // background: #9ADAEF;
+      border: #000000;
+
+      .itemone{
+        // background: #9ADAEF;
+        text-align: baseline;
+        text-align: center;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        background-position:top center;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        margin: 0auto;
+      }
+
+      // .blank {
+      //   grid-column-start: 2;
+      //   grid-row-start: 2;
+      // }
+      .itemtwo{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        text-align: center;
+        // background: #9ADAEF;
+        background-position:top center;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        margin: 0auto;
+      }
+        .itemthree{
+          grid-column-start: 1;
+          grid-row-start: 2;
+          text-align: center;
+          // background: #55A7BC;
+          background-position:top center;
+          background-size: cover;
+          width:100%;
+          height:100%;
+          margin: 0auto;
+
+        }
+        // .blankfour{
+        //   grid-column-start: 2;
+        //   grid-row-start: 4;
+        // }
+        .itemfour{
+          grid-column-start:2;
+          grid-row-start: 1;
+          text-align: center;
+          // background: #55A7BC;
+          background-position:top center;
+          background-size: cover;
+          width:100%;
+          height:100%;
+          margin: 0auto;
+
+        }
+      }
+      .about{
+        background-image: url("../images/brick-wall.jpg");
+        border: 5px solid white;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        // text-align: center;
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 10% 80% 10%;
+        height: 60vh;
+        width: 100vw;
+        //  background: #bbbbbb;
+            .selfie{
+
+          grid-column-start: 2;
+          grid-row-start: 2;
+
+            }
+            .aboutme{
+          background-color: #BFE6F3;
+          grid-column-start: 3;
+          grid-row-start: 1;
+          grid-row-end: 3;
+              }
+      }
+
+      .aboutpage{
+        background-image: url("../images/brick-wall.jpg");
+        border: 5px solid white;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        background-size: cover;
+        width:100%;
+        height:100%;
+        // text-align: center;
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 10% 80% 10%;
+        height: 40vh;
+        width: 100vw;
+        //  background: #bbbbbb;
+          .selftwo{
+
+          grid-column-start: 2;
+          grid-row-start: 2;
+
+          }
+          .abtmetwo{
+          background-color: #BFE6F3;
+          grid-column-start: 3;
+          grid-row-start: 1;
+          grid-row-end: 3;
+          }
+      }
+
+
+    .socialmedia {
+      border: 5px solid white;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      background-size: cover;
+      width:100%;
+      height:100%;
+      // text-align: center;
+      display: grid;
+      grid-template-columns: 20% 20% 20% 20% 20%;
+      grid-template-rows: 10% 80% 10%;
+      height: 40vh;
+      width: 80vw;
+
+      .behance{
+        grid-column-start: 1;
+        grid-row-start: 2;
+        width:100%;
+        height:100%;
+      }
+      .youtube {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        width:100%;
+        height:100%;
+      }
+      .linkedin{
+        grid-column-start: 3;
+        grid-row-start: 2;
+        width:100%;
+        height:100%;
+      }
+      .facebook{
+        grid-column-start: 4;
+        grid-row-start: 2;
+        width:100%;
+        height:100%;
+      }
+      .instagram{
+        grid-column-start: 5;
+        grid-row-start: 2;
+        width:100%;
+        height:100%;
+      }
+    }
+  }
+}

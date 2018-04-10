@@ -1,0 +1,18 @@
+footer{
+  height: 60px;
+  width: 100vw;
+    background-color: #0E657A;
+
+  // grid-template-columns: auto 1fr;
+  .footnote{
+    background-color: #213e48;
+    font-size: 18px;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20%;
+    .logo{
+      grid-column-start: 1;
+    }
+  }
+}

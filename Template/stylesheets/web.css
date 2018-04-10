@@ -22,7 +22,6 @@ header .wrap .logo {
   grid-column-start: 1;
   text-align: center;
   background: #0E657A;
-  background-image: url("brick-wall.jpg");
   background-position: top center;
   background-size: cover;
   width: 100%;
